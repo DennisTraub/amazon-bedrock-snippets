@@ -6,7 +6,7 @@ from PIL import Image
 
 client = boto3.client(service_name="bedrock-runtime", region_name="us-east-1")
 
-prompt = "A stylized photograph of a cute old steampunk robot."
+prompt = "A stylized photograph of a cute old steampunk bird."
 model_id = "amazon.titan-image-generator-v1"
 
 request_body = json.dumps({
